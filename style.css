@@ -1,0 +1,79 @@
+
+h1 {
+	color: #0C5D25;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 55px;
+	font-weight: 550;
+}
+
+p {
+	color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 25px;
+	font-weight: 100;
+}
+body{
+	text-align: center;
+	background-color: #0C5D25;
+}
+
+
+.container {
+    background-color: rgba(255, 255, 255, 0.562);
+    max-width: 650;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35)
+                     0px 5px 15px;
+    margin: auto 100px auto 100px;
+    padding: 5px 30px;
+}
+
+
+img {
+	border-radius: 10% 10% 10% 10%;
+	 box-shadow: rgba(0, 0, 0, 0.35)
+                     0px 5px 15px;
+} 
+
+h4 {
+	color: #0C5D25;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 25px;
+	font-weight: 550;
+}
+
+h3 {
+	color: #0C5D25;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 35px;
+	font-weight: 550;
+}
+
+ul {
+	list-style-type: none;
+	color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+a {
+	color: rgb(173, 11, 125);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 30px;
+	font-weight: 50;
+}
+a:hover {
+    color: #3610be;
+
+}
+
+div{
+  background-color: #0C5D25;
+    max-width: 650;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35)
+                     0px 5px 15px;
+    margin: auto 100px auto 100px;
+    padding: 5px 30px;
+}
