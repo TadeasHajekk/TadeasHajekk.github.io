@@ -33,6 +33,7 @@ img {
 	border-radius: 10% 10% 10% 10%;
 	 box-shadow: rgba(0, 0, 0, 0.35)
                      0px 5px 15px;
+	margin: 20px 20px 20px 20px;
 } 
 
 h4 {
@@ -53,27 +54,27 @@ ul {
 	list-style-type: none;
 	color: rgb(255, 255, 255);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	font-size: 20px;
-	font-weight: 100;
+	font-size: 30px;
+	font-weight: 10;
 }
 
 a {
-	color: rgb(173, 11, 125);
+	color: goldenrod;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-size: 30px;
 	font-weight: 50;
 }
 a:hover {
-    color: #3610be;
+    color: #d60a0a;
 
 }
 
 div{
   background-color: #0C5D25;
-    max-width: 650;
-    border-radius: 15px;
+    width: 50;
+    border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35)
                      0px 5px 15px;
-    margin: auto 100px auto 100px;
-    padding: 5px 30px;
+    margin: 50px 100px 50px 100px;
+    padding: 5px 40px;
 }
