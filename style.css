@@ -26,6 +26,7 @@ body{
                      0px 5px 15px;
     margin: auto 100px auto 100px;
     padding: 5px 30px;
+	justify-content: center;
 }
 
 
@@ -34,6 +35,7 @@ img {
 	 box-shadow: rgba(0, 0, 0, 0.35)
                      0px 5px 15px;
 	margin: 20px 20px 20px 20px;
+	display: inline;
 } 
 
 h4 {
@@ -56,6 +58,11 @@ ul {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	font-size: 30px;
 	font-weight: 10;
+	display: flex;
+}
+
+li {display: block;
+	padding: 10px;
 }
 
 a {
@@ -76,5 +83,48 @@ div{
     box-shadow: rgba(0, 0, 0, 0.35)
                      0px 5px 15px;
     margin: 50px 100px 50px 100px;
-    padding: 5px 40px;
+    padding: 30px 40px;
+}
+
+#navbar {
+    background-color: #0C5D25;
+	border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#navbar a {
+    color: goldenrod;
+    text-decoration: none;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 10px;
+    margin: 0 4px;
+}
+
+#navbar ul li a:hover {
+    background-color: #0C5D25;
+    border-radius: 5px;
+}
+
+.text-primary {
+	color:#0C5D25
+
+}
+
+.fa-solid {
+	color: goldenrod
+
 }
