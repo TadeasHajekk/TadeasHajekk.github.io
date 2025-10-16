@@ -14,7 +14,7 @@ p {
 }
 body{
 	text-align: center;
-	background-color: #0C5D25;
+	background-color: #000000;  
 }
 
 
@@ -134,12 +134,25 @@ h2 {
     color: goldenrod;
 }
 
-@media(max-width:500px) {
-    body {
-        background-color: red;
+/* ✅ Zobrazovat v mobilním režimu jen ikony v navbaru */
+@media (max-width: 600px) {
+    #navbar ul li a {
+        font-size: 0; /* Skryje text */
+        padding: 10px;
     }
 
-    #smartphone {
-        display: block;
+    #navbar ul li a i {
+        font-size: 28px; /* Zvýší velikost ikon */
+        color: goldenrod;
+        margin: 0 8px;
+    }
+
+    #navbar .logo {
+        font-size: 0; /* Skryje text "Info" */
+    }
+
+    #navbar .logo i {
+        font-size: 28px;
+        color: goldenrod;
     }
 }
