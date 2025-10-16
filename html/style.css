@@ -135,7 +135,7 @@ h2 {
 }
 
 /* ✅ Zobrazovat v mobilním režimu jen ikony v navbaru */
-@media (max-width: 600px) {
+@media (max-width:500x) {
     #navbar ul li a {
         font-size: 0; /* Skryje text */
         padding: 10px;
