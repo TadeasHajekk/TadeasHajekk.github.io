@@ -1,11 +1,10 @@
 :root {
-  --main-white: #f0f7da; /* světlý podklad */
-  --main-red: #77ab59;   /* hlavní akcent (světle zelená) */
-  --main-blue: #122711;  /* tmavší zelená pro hover */
-  --main-gray: #daa520;  /* nejtmavší odstín */
+  --main-white: #f0f7da; 
+  --main-red: #77ab59;   
+  --main-blue: #122711;  
+  --main-gray: #daa520;  
 }
 
-/* Base reset */
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +22,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Responsivní změna font-size */
 @media (max-width: 75em) {
   html {
     font-size: 60%;
@@ -42,7 +40,6 @@ html {
   }
 }
 
-/* Base styles */
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 1.8rem;
@@ -83,7 +80,6 @@ img {
   border-radius: 4px;
 }
 
-/* nav */
 .nav {
   display: flex;
   justify-content: flex-end;
@@ -123,7 +119,6 @@ img {
   color: var(--main-gray);
 }
 
-/* Welcome section */
 .welcome-section {
   display: flex;
   flex-direction: column;
@@ -143,7 +138,6 @@ img {
   color: #c9df8a;
 }
 
-/* Projects section */
 .projects-section {
   text-align: center;
   padding: 10rem 2rem;
@@ -199,7 +193,6 @@ img {
   padding: 2rem 0.5rem;
 }
 
-/* tlačítka */
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
@@ -227,7 +220,6 @@ img {
   transform: translateX(2px);
 }
 
-/* Kontakt */
 .contact-section {
   display: flex;
   flex-direction: column;
@@ -270,7 +262,6 @@ img {
   color: #234d20;
 }
 
-/* Footer */
 footer {
   font-weight: 300;
   display: flex;

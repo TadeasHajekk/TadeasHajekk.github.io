@@ -6,6 +6,27 @@ h1 {
 	font-weight: 550;
 }
 
+h2 {
+    color: #0C5D25
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 45px;
+	font-weight: 550;
+}
+
+h3 {
+	color: #0f7530;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 35px;
+	font-weight: 550;
+}
+
+h4 {
+	color: #149b3f;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 25px;
+	font-weight: 550;
+}
+
 p {
 	color: #77ab59;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -37,19 +58,6 @@ img {
 	display: inline;
 } 
 
-h4 {
-	color: #0C5D25;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	font-size: 25px;
-	font-weight: 550;
-}
-
-h3 {
-	color: #0C5D25;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	font-size: 35px;
-	font-weight: 550;
-}
 
 ul {
 	list-style-type: none;
@@ -130,29 +138,126 @@ a:hover {
 
 }
 
-h2 {
-    color: goldenrod;
-}
 
-/* ✅ Zobrazovat v mobilním režimu jen ikony v navbaru */
 @media (max-width: 600px) {
     #navbar ul li a {
-        font-size: 0; /* Skryje text */
+        font-size: 0; 
         padding: 10px;
     }
 
     #navbar ul li a i {
-        font-size: 28px; /* Zvýší velikost ikon */
+        font-size: 28px; 
         color: goldenrod;
         margin: 0 8px;
     }
 
     #navbar .logo {
-        font-size: 0; /* Skryje text "Info" */
+        font-size: 0; 
     }
 
     #navbar .logo i {
         font-size: 28px;
         color: goldenrod;
     }
+}
+
+/* === Styl pro sekce závodů – nezávislý na existujících stylech === */
+
+.race-section {
+  background-color: #fffbe6;
+  border: 2px solid goldenrod;
+  border-radius: 15px;
+  padding: 25px 30px;
+  margin: 40px auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  max-width: 800px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.race-section:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+
+.race-section h3 {
+  color: #0C5D25;
+  font-size: 30px;
+  border-left: 5px solid goldenrod;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.race-section p {
+  color: #065006;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.race-section hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, goldenrod, transparent);
+  margin: 15px 0;
+}
+
+/* Styl pro odkazy uvnitř závodních sekcí */
+.race-link {
+  color: #d60a0a;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.race-link:hover {
+  color: goldenrod;
+  border-color: goldenrod;
+}
+
+/* Styl pro seznam v sekci závodů */
+.race-list {
+  list-style-type: none;
+  margin: 15px 0;
+  padding-left: 10px;
+}
+
+.race-list > li {
+  background-color: #f0f7da;
+  margin: 8px 0;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 22px;
+  color: #0C5D25;
+  transition: background-color 0.3s ease;
+}
+
+.race-list > li:hover {
+  background-color: #e6efc2;
+}
+
+.race-list ul {
+  margin-top: 5px;
+  margin-left: 25px;
+  font-size: 20px;
+  list-style-type: circle;
+  color: #065006;
+}
+
+/* Responzivita */
+@media (max-width: 600px) {
+  .race-section {
+    padding: 15px 20px;
+  }
+
+  .race-section h3 {
+    font-size: 25px;
+  }
+
+  .race-section p,
+  .race-list > li {
+    font-size: 18px;
+  }
 }
